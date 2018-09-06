@@ -14,3 +14,7 @@
 ## 10. Server and client
 
 # Section 4: Module, Exports and Require
+
+# Section 5: Events and the Even Emitter
+
+## 31. Events
