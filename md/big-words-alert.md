@@ -29,3 +29,20 @@
 
 - Magic string: A string that has some special meaning in our code
   - This is bad because it makes it easy for a typo to cause a bug and hard for tools to help us find it
+
+# Section 6: Asynchronous Code, libuv, The Event Loop, Streams, Files, and more…
+
+## 42. Javascript Aside: Javascript is Synchronous
+
+- Asynchronous: More than one process running simultaneously
+
+  - Node does things asynchronously. V8 does not.
+
+- Synchronous: One process executing at a time
+  - Javascript is synchronous. Think of it as only one line of code executing at atime.
+  - Nodejs is asynchronous.
+
+## 44. libuv, The Event Loop, and Non-Blocking Asynchronous Execution
+
+- Non-blocking: doing other things without stopping your programming from running
+  - This is made possible by Node's doing things asynchronously
